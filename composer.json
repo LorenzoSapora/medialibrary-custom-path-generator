@@ -1,0 +1,26 @@
+{
+    "name": "terminalsio/medialibrary-custom-path-generator",
+    "description": "A laravel package for spatie medialibrary to extend PathGenerator to support collection names instead of IDs",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^5.5.0",
+        "spatie/laravel-medialibrary": "^7.12",
+        "php": "^7.0"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/LorenzoSapora/medialibrary-custom-path-generator",
+    "authors": [
+        {
+            "name": "Lorenzo Sapora",
+            "email": "lorenzo.sapora@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Terminalsio\\MedialibraryCustomPathGenerator\\": "src"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": "true"
+}
