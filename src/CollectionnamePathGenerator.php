@@ -4,7 +4,7 @@ namespace Terminalsio\MedialibraryCustomPathGenerator;
 use Spatie\MediaLibrary\Models\Media;
 use Spatie\MediaLibrary\PathGenerator\PathGenerator;
 
-class CustomPathGenerator
+class CustomPathGenerator implements PathGenerator
 {
     public function getPath(Media $media) : string
     {
@@ -12,10 +12,10 @@ class CustomPathGenerator
     }
     public function getPathForConversions(Media $media) : string
     {
-        return $this->getPath($media).'c/';
+        return $this->getPath($media).'conversions/';
     }
     public function getPathForResponsiveImages(Media $media): string
     {
-        return $this->getPath($media).'/cri/';
+        return $this->getPath($media).'/responsive-images/';
     }
 }
