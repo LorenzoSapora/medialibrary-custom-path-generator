@@ -4,8 +4,8 @@
     "type": "library",
     "require": {
         "laravel/framework": "^6",
-        "spatie/laravel-medialibrary": "^7.12",
-        "php": "^7.0"
+        "spatie/laravel-medialibrary": "^7",
+        "php": "^7.4"
     },
     "license": "MIT",
     "homepage": "https://github.com/LorenzoSapora/medialibrary-custom-path-generator",
