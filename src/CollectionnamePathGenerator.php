@@ -2,7 +2,7 @@
 namespace Terminalsio\MedialibraryCustomPathGenerator;
 
 use Spatie\MediaLibrary\Models\Media;
-use Spatie\MediaLibrary\PathGenerator\PathGenerator;
+use Spatie\MediaLibrary\Support\PathGenerator\PathGenerator;
 
 class CustomPathGenerator implements PathGenerator
 {
