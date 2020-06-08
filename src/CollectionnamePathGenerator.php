@@ -1,5 +1,5 @@
 <?php
-namespace Spatie\MediaLibrary\Support\PathGenerator;
+namespace Terminalsio\MedialibraryCustomPathGenerator;
 
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
