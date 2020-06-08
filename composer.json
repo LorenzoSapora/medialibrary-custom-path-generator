@@ -3,8 +3,8 @@
     "description": "A laravel package for spatie medialibrary to extend PathGenerator to support collection names instead of IDs",
     "type": "library",
     "require": {
-        "laravel/framework": "^6",
-        "spatie/laravel-medialibrary": "^7",
+        "laravel/framework": "^7",
+        "spatie/laravel-medialibrary": "^8",
         "php": "^7.4"
     },
     "license": "MIT",
