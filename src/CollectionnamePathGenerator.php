@@ -1,7 +1,7 @@
 <?php
 namespace Terminalsio\MedialibraryCustomPathGenerator;
 
-use Spatie\MediaLibrary\Support\PathGenerator;
+use Spatie\MediaLibrary\Support\PathGenerator\PathGenerator;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
 class CustomPathGenerator implements PathGenerator
